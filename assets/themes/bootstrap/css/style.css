@@ -1,3 +1,16 @@
+.sativa {
+  background-color: #ffc0cc;
+  color: red;
+}
+
+.hybrid {
+  background-color: #ffc0cc;
+}
+
+.indica {
+  background-color: #ffc0cc;
+}
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;

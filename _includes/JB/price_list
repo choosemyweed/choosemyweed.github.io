@@ -8,12 +8,8 @@
             
             <strong>{{ price[0] }}</strong>
             
-            {% if price[3] == true %}
-                <small>plus tax</small>
-            {% endif %}
-            
             {% if price[2] == true %}
-              <span class="label label-success">In-Stock</span>
+                <small>plus tax</small>
             {% endif %}
         </li>
     {% endif %}

@@ -29,8 +29,9 @@ wh: [
 
 ### Not too heavy .. Dense Buds
 
-#### Great for the average user
-
 This is a decent sativa strain for the low-to-mid level smoker.
+
+#### Loosly packed buds .. even burn-rate
+
 Don't expect to to be "flying high", just floating around a bit,
 but you'll be keeping it productive. 
