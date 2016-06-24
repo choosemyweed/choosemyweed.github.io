@@ -1,6 +1,6 @@
 
 {% for price in price_list %} 
-    {% if price[2] == true %}
+    {% if price[1] != 0 %}
         <li>
             {% if price[1] != 0 %}
                 ${{ price[1] }} at
