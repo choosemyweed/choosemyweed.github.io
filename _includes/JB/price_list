@@ -2,10 +2,6 @@
 {% for price in price_list %} 
     {% if price[1] != 0 %}
         <li>
-            {% if price[1] != 0 %}
-                ${{ price[1] }} at
-            {% endif %}
-            
             <strong>{{ price[0] }}</strong>
             
             {% if price[2] == true %}

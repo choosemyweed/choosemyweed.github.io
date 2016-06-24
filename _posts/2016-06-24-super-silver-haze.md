@@ -1,0 +1,51 @@
+---
+layout: strain
+strain: "Super Silver Haze"
+farm: northwest grown
+thumbnail: https://s19.postimg.org/xnnb4bzyb/WP_20160624_13_21_28_Pro.jpg
+
+harvest-date: 05/20/2016
+test-date: 
+purchase-date: 06/24/2016
+
+description: "Light nugs .. frosty .. FLUFFY!"
+categories: [wa, northwest-grown, sativa]
+tags: [frosty, fluffy]
+
+look-rate: 9
+smell-rate: 5
+taste-rate: 7
+high-rate: 9
+last-rate: 9
+
+wh: [
+     [smuggler brothers, 00, true],
+     [the joint,         13, false],
+     [cannerax,          00, false],
+     [loving farms,      00, false],
+     [221 inc,           00, false]
+    ]
+---
+{% include JB/setup %}
+
+
+### Too high .. WAY too high
+
+Not that it's a bad thing, just bad circumstances.
+
+![close up super silver haze northwest grown](https://s19.postimg.org/wa09mrq2r/close_up_super_silver_haze.jpg)
+
+#### Don't have plans
+
+You'll be high up in the clouds, 
+surfing rainbows and drinkin' Cool-Aid.
+
+![1 gram super silver haze](https://s19.postimg.org/50ow89ozn/WP_20160624_13_24_08_Pro.jpg)
+
+## Party Time!
+
+![party time with super silver haze](http://media1.giphy.com/media/CkkVulYzFjd72/giphy.gif)
+
+### Or Game Time!
+
+![game time with super silver haze](http://memberdata.s3.amazonaws.com/hi/hitsdd/photos/hitsdd_photo_gal__photo_244846816.gif)
