@@ -1,11 +1,38 @@
 <div class="page-header">
+  
+  {% if page.thumbnail != empty %}
+    <span class="thumb-left">
+      <img class="img-responsive" src="{{ page.thumbnail }}"/>
+    </span>
+  {% endif %}
+  
   <h1>
     <span class="text-capitalize">{{ page.strain }}</span> 
     
     {% if page.farm %}
-      <small>from <span class="text-capitalize">{{page.farm}}</span></small>
+      <span><small>from <span class="text-capitalize">{{page.farm}}</span></small></span>
     {% endif %}
   </h1>
+</div>
+
+<div class="container">
+  <ul class="rate-box">
+    {% if page.smell-rate %}
+      <li><strong>Smell:</strong> {{ page.smell-rate }}/10</li>
+    {% endif %}
+    
+    {% if page.taste-rate %}
+      <li><strong>Taste:</strong> {{ page.taste-rate }}/10</li>
+    {% endif %}
+    
+    {% if page.high-rate %}
+      <li><strong>High Effect:</strong> {{ page.high-rate }}/10</li>
+    {% endif %}
+    
+    {% if page.last-rate %}
+      <li><strong>Length of High:</strong> {{ page.last-rate }}/10</li>
+    {% endif %}
+  </ul>
 </div>
 
 <div class="row post-full">
@@ -13,23 +40,7 @@
     <div class="content">
       {{ content }}
       
-      <ul class="rate-box">
-        {% if page.smell-rate %}
-          <li>Smell: {{ page.smell-rate }}/10</li>
-        {% endif %}
-        
-        {% if page.taste-rate %}
-          <li>Taste: {{ page.taste-rate }}/10</li>
-        {% endif %}
-        
-        {% if page.high-rate %}
-          <li>High Effect: {{ page.high-rate }}/10</li>
-        {% endif %}
-        
-        {% if page.last-rate %}
-          <li>Length of High: {{ page.last-rate }}/10</li>
-        {% endif %}
-      </ul>
+      
       
       <ul class="list-group" style="list-style: none">
         {% unless page.wh == empty %}

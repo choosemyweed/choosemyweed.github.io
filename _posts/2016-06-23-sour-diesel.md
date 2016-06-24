@@ -3,6 +3,8 @@ layout: strain
 strain: "Sour Diesel"
 farm: Life Gardens
 
+thumbnail: https://s19.postimg.org/4ham7iitf/WP_20160623_14_53_29_Pro_1.jpg
+
 harvest-date: 2/23/2016
 test-date: 
 purchase-date: 6/23/2016
@@ -25,9 +27,6 @@ wh: [
     ]
 ---
 {% include JB/setup %}
-
-![Sour Diesel from Life Gardens - packaging](https://s32.postimg.org/r4z9raeqd/WP_20160623_14_53_29_Pro_1.jpg)
-![Sour Diesel from Life Gardens - profile](https://s32.postimg.org/dlwmmw9f9/WP_20160623_14_52_55_Pro_1.jpg)
 
 ### Beware of zombie leaves
 
