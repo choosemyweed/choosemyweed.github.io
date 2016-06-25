@@ -15,9 +15,6 @@
     {% endif %}
   
     <li>
-      {% if post.thumbnail != empty %}
-        <img src="{{ post.thumbnail }}"/>
-      {% endif %}
       
       <span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; 
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
