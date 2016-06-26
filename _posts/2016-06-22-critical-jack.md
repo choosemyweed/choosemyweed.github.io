@@ -19,14 +19,13 @@ rate:
         taste: 6
         high: 8
         length: 7
+ts: 
+    smuggler brothers:
+        ubi: 603355893
+        trans: [
+            [6033507870007144, 14, 2016-06-21, 3.4]
+            ]
 
-wh: [
-        [smuggler brothers, 14, true]
-    ]
-        
-ts : [
-        [6033507870007144, 2016-06-21, 3.4]
-     ]
 ---
 {% include JB/setup %}
 

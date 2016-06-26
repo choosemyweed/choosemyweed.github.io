@@ -32,15 +32,52 @@
   margin-right: 28px;
 }
 
+.thumb-center {
+  margin: 0 auto;
+}
+
 .thumb-edge {
     border-top: 1px solid #e2e2e2;
     border-right: 1px solid #bec1bf;
     border-bottom: 1px solid #c0cac2;
     border-left: 1px solid #cccccc;
     box-shadow: 2px 4px 7px #cfdad2;
+}
+
+.dangle-left-sm {
+    -ms-transform: rotate(-3.2deg);
+    -webkit-transform: rotate(-3.2deg);
+    transform: rotate(-3.2deg);
+}
+
+.dangle-right-sm {
+    -ms-transform: rotate(3.2deg);
+    -webkit-transform: rotate(3.2deg);
+    transform: rotate(3.2deg);
+}
+
+.dangle-left-md {
+    -ms-transform: rotate(-4.2deg);
+    -webkit-transform: rotate(-4.2deg);
+    transform: rotate(-4.2deg);
+}
+
+.dangle-right-md {
+    -ms-transform: rotate(4.2deg);
+    -webkit-transform: rotate(4.2deg);
+    transform: rotate(4.2deg);
+}
+
+.dangle-left-lg {
     -ms-transform: rotate(-5.6deg);
     -webkit-transform: rotate(-5.6deg);
     transform: rotate(-5.6deg);
+}
+
+.dangle-right-lg {
+    -ms-transform: rotate(5.6deg);
+    -webkit-transform: rotate(5.6deg);
+    transform: rotate(5.6deg);
 }
 
 .content img {

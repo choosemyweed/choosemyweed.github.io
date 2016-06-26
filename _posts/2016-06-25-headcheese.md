@@ -4,8 +4,8 @@ strain: "headcheese"
 farm: emerald evolution
 thumbnail: https://s19.postimg.org/jhc5muegz/headcheese_emerald_evolution.jpg
 
-harvest-date-ISO-8601: 
-test-date-ISO-8601:
+harvest-date-ISO-8601 : 
+test-date-ISO-8601 :
 
 description: "Dense & sticky buds .. Soooooo potent"
 categories: [wa, emerald-evolution, hybrid]
@@ -18,12 +18,8 @@ rate:
      high: 10
      length: 9
 
-wh: [
-     [smuggler brothers, 19, true]
-    ]
-    
-ts : [
-     ]
+ts: 
+ 
 ---
 {% include JB/setup %}
 

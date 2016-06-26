@@ -18,13 +18,12 @@ rate:
      high: 8
      length: 8
 
-wh: [
-     [smuggler brothers, 12, true]
-    ]
-        
-ts : [
-     [6030144950000283, 2016-06-18, 4.3]
-     ]
+ts: 
+    smuggler brothers:
+        ubi: 603355893
+        trans: [
+            [6030144950000283, 12, 2016-06-18, 4.3]
+            ]
     
 ---
 {% include JB/setup %}

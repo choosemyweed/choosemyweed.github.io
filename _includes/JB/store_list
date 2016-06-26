@@ -1,0 +1,18 @@
+
+{% for store in store_list %} 
+    {% if forloop.first == true %}
+        <li>
+            <span>{{ store.store }}</span>
+        </li>
+    {% else %}
+        <hr>
+        <li>
+            <span>{{ store.store }}</span>
+        </li>
+    {% endif %}
+{% endfor %}
+
+
+
+{% assign store_list = nil %}
+

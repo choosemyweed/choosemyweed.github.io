@@ -20,13 +20,13 @@ rate:
      high: 9
      length: 9
 
-wh: [
-     [the joint,         13, false]
-    ]
-
-ts: [
-     [6033591220003251, 2016-06-24, 3.9]
-    ]
+ts: 
+    smuggler brothers:
+        ubi: 603355893
+        trans: [
+            [6033591220003251, 13, 2016-06-24, 3.9]
+            ]
+ 
 ---
 {% include JB/setup %}
 
