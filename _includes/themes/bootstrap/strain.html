@@ -23,7 +23,7 @@
     {% endif %}
   </div>
   
-  <div class="container rate-box">
+  <div class="rate-box">
     <div class="col-xs-12 col-md-3">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -56,37 +56,41 @@
       
     </div>
     
-    <div class="col-xs-12 col-md-3">
-      {% unless page.wh == empty %}
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Stores</h3>
-          </div>
-          <div class="panel-body text-capitalize">
-            <ul style="list-style: none">
-              {% assign price_list = page.wh %}
-              {% include JB/price_list %}
-            </ul>
+    
+      {% unless page.wh.first != empty %}
+        <div class="col-xs-12 col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Stores</h3>
+            </div>
+            <div class="panel-body text-capitalize">
+              <ul style="list-style: none">
+                {% assign price_list = page.wh %}
+                {% include JB/price_list %}
+              </ul>
+            </div>
           </div>
         </div>
       {% endunless %}
-    </div>
+    
       
-    <div class="col-xs-12 col-md-3">
-        {% unless page.ts == empty %}
-          <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Weed Feed</h3>
+    
+        {% if page.ts.first != empty %}
+          <div class="col-xs-12 col-md-3">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Weed Feed</h3>
+              </div>
+              <div class="panel-body text-capitalize">
+                <ul>
+                  {% assign trans_list = page.ts %}
+                  {% include JB/trans_list %}
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="panel-body text-capitalize">
-            <ul>
-              {% assign trans_list = page.ts %}
-              {% include JB/trans_list %}
-            </ul>
-          </div>
-        </div>
-        {% endunless %}
-    </div>
+        {% endif %}
+    
   </div>
   
   <div class="row post-full">
