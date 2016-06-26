@@ -5,8 +5,9 @@ farm: northwest grown
 thumbnail: https://s19.postimg.org/xnnb4bzyb/WP_20160624_13_21_28_Pro.jpg
 
 harvest-date: 05/20/2016
+harvest-date-ISO-8601: 2016-05-20
+
 test-date: 
-purchase-date: 06/24/2016
 
 description: "Light nugs .. frosty .. FLUFFY!"
 categories: [wa, northwest-grown, sativa]
@@ -24,6 +25,10 @@ wh: [
      [cannerax,          00, false],
      [loving farms,      00, false],
      [221 inc,           00, false]
+    ]
+
+ts: [
+     [6033591220003251, 2016-06-24, 3.9]
     ]
 ---
 {% include JB/setup %}
@@ -48,4 +53,4 @@ surfing rainbows and drinkin' Cool-Aid.
 
 ### Or Game Time!
 
-![game time with super silver haze](http://memberdata.s3.amazonaws.com/hi/hitsdd/photos/hitsdd_photo_gal__photo_244846816.gif)
+![game time with super silver haze](https://cdn.meme.am/instances/500x/67408128.jpg)

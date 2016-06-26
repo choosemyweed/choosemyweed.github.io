@@ -1,0 +1,20 @@
+{% for ts in trans_list %}
+    {% if ts.first != empty %}
+        {% if ts.first %}
+            <li itemprop="aggregateRating"
+                itemscope itemtype="http://schema.org/AggregateRating">
+                <h5>{{ ts[0] }}</h5>
+                <small>{{ ts[1]  | date: '%B %d, %Y'}} - <span itemprop="ratingValue">{{ ts[2] }}</span>/5</small>
+            </li>
+        {% else %}
+            <hr>
+            <li>
+                <h5>{{ ts[0] }}</h5>
+                <small>{{ ts[1] }} - {{ ts[2] }}/5</small>
+            </li>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% assign trans_list = nil %}
+

@@ -1,15 +1,26 @@
-
 {% for price in price_list %} 
     {% if price[1] != 0 %}
-        <li>
-            <strong>{{ price[0] }}</strong>
-            
-            {% if price[2] == true %}
-                <small>plus tax</small>
-            {% endif %}
-        </li>
+        {% if price.first %}
+            <li>
+                <strong>{{ price[0] }}</strong>
+                
+                {% if price[2] == true %}
+                    <small>plus tax</small>
+                {% endif %}
+            </li>
+        {% else %}
+            <hr>
+            <li>
+                <strong>{{ price[0] }}</strong>
+                
+                {% if price[2] == true %}
+                    <small>plus tax</small>
+                {% endif %}
+            </li>
+        {% endif %}
     {% endif %}
 {% endfor %}
+
 
 {% assign price_list = nil %}
 
