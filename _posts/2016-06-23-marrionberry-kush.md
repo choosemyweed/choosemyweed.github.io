@@ -2,31 +2,29 @@
 layout: strain
 strain: "marrionberry kush"
 farm: badass grass
+thumbnail: 
 
-test-date: 
-purchase-date: 06/21/2016
-harvest-date: 
+test-date-ISO-8601: 
+harvest-date-ISO-8601: 2016-03-10 
 
 
 description: "Mild and Earthy"
 categories: [wa, badass-grass, indica]
 tags: [dense, earthy, kush]
 
-smell-rate: 4
-taste-rate: 5
-high-rate: 5
-last-rate: 4
+rate:
+        look: 4
+        smell: 4
+        taste: 5
+        high: 5
+        length: 4
 
 wh: [
-        [smuggler brothers, 0, true],
-        [cannerax,          0, false],
-        [loving farms,      0, false],
-        [221 inc,           0, false],
-        [the joint,         0, false]
+        [smuggler brothers, 12, true]
     ] 
         
 ts : [
-     []
+        [7049837436310231, 2016-06-21, 2.2]
      ]
 ---
 {% include JB/setup %}

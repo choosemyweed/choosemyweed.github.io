@@ -4,31 +4,28 @@ strain: Critical Jack
 farm: Sweet As
 thumbnail: 
 
-test-date: 
+test-date-ISO-8601: 
 purchase-date: 06/21/2016
-harvest-date: 05/12/2016
+harvest-date-ISO-8601: 05/12/2016
 
 
 description: "Pleasantly Productive"
 categories: [wa, sweet-as, sativa]
 tags: [dense, tasty, productivity]
 
-look-rate: 6
-smell-rate: 7
-taste-rate: 6
-high-rate: 8
-last-rate: 7
+rate:
+        look: 6
+        smell: 7
+        taste: 6
+        high: 8
+        length: 7
 
 wh: [
-        [smuggler brothers, 14, tru],
-        [cannerax,          0, false],
-        [loving farms,      0, false],
-        [221 inc,           0, false],
-        [the joint,         0, false]
+        [smuggler brothers, 14, true]
     ]
         
 ts : [
-     []
+        [6033507870007144, 2016-06-21, 3.4]
      ]
 ---
 {% include JB/setup %}

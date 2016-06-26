@@ -1,20 +1,20 @@
 {% for price in price_list %} 
     {% if price[1] != 0 %}
-        {% if price.first %}
+        {% if forloop.first == true %}
             <li>
-                <strong>{{ price[0] }}</strong>
+                <span>{{ price[0] }}</span>
                 
                 {% if price[2] == true %}
-                    <small>plus tax</small>
+                    <small> + tax</small>
                 {% endif %}
             </li>
         {% else %}
             <hr>
             <li>
-                <strong>{{ price[0] }}</strong>
+                <span>{{ price[0] }}</span>
                 
                 {% if price[2] == true %}
-                    <small>plus tax</small>
+                    <small> + tax</small>
                 {% endif %}
             </li>
         {% endif %}

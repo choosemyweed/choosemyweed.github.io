@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-tagline: Strain Reviews
+tagline: Find Weed in Northwest Washington
 ---
 {% include JB/setup %}
 

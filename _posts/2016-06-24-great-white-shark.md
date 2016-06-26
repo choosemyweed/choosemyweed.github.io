@@ -4,32 +4,27 @@ strain: "great white shark"
 farm: Northwest Grown
 thumbnail: https://s19.postimg.org/4wlw0j4qr/WP_20160624_12_30_34_Pro.jpg
 
-lot: 6033591220003239
+harvest-date-ISO-8601: 05/20/2016
 
-harvest-date: 05/20/2016
-test-date: 
-purchase-date: 06/24/2016
+test-date-ISO-8601: 
 
 description: "Frosted with crystaline goodness."
 categories: [wa, northwest-grown, sativa]
 tags: [frosty, beautiful]
 
-look-rate: 9
-smell-rate: 6
-taste-rate: 7
-high-rate: 9
-last-rate: 8
+rate:
+     look: 9
+     smell: 6
+     taste: 7
+     high: 9
+     length: 8
 
 wh: [
-     [smuggler brothers, 00, true],
-     [the joint,         13, false],
-     [cannerax,          00, false],
-     [loving farms,      00, false],
-     [221 inc,           00, false]
+     [the joint,         13, false]
     ]
         
 ts : [
-     []
+     [6033591220003239, 2016-06-24, 4]
      ]
 ---
 {% include JB/setup %}

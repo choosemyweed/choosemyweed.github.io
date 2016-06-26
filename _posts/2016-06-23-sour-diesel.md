@@ -5,29 +5,26 @@ farm: Life Gardens
 
 thumbnail: https://s19.postimg.org/4ham7iitf/WP_20160623_14_53_29_Pro_1.jpg
 
-harvest-date: 2/23/2016
-test-date: 
-purchase-date: 6/23/2016
+harvest-date-ISO-8601: 2/23/2016
+test-date-ISO-8601: 
 
 description: "Earthy undertone .. Hits like a street sweeper"
 categories: [wa, life-gardens, spark, sativa]
 tags: [productive, head-high, classic]
 
-smell-rate: 5
-taste-rate: 5
-high-rate: 8
-last-rate: 6
+rate:
+     look: 5
+     smell: 5
+     taste: 5
+     high: 8
+     length: 6
 
 wh: [
-     [smuggler brothers, 10, true],
-     [the joint,         00, false],
-     [cannerax,          00, false],
-     [loving farms,      00, false],
-     [221 inc,           00, false]
+     [smuggler brothers, 10, true]
     ]
         
 ts : [
-     []
+     [6033356330011652, 2016-06-23, 2.9]
      ]
 ---
 {% include JB/setup %}

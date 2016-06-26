@@ -1,16 +1,31 @@
 {% for ts in trans_list %}
     {% if ts.first != empty %}
-        {% if ts.first %}
+        {% if forloop.first == true %}
             <li itemprop="aggregateRating"
                 itemscope itemtype="http://schema.org/AggregateRating">
                 <h5>{{ ts[0] }}</h5>
-                <small>{{ ts[1]  | date: '%B %d, %Y'}} - <span itemprop="ratingValue">{{ ts[2] }}</span>/5</small>
+                
+                {% assign stars = ts[2] %}
+                {% for i in (1..stars) %}
+                    <span class="glyphicon glyphicon-star"></span>
+                {% endfor %}
+                
+                <small>{{ ts[1]  | date: '%B %d, %Y'}}</small>
+                
+                <input type="hidden" itemprop="ratingValue" value="{{ ts[2] }}"/>
+                <input type="hidden" itemprop="ratingCount" value="{{ forloop.length }}"/>
             </li>
         {% else %}
             <hr>
             <li>
                 <h5>{{ ts[0] }}</h5>
-                <small>{{ ts[1] }} - {{ ts[2] }}/5</small>
+                
+                {% assign stars = ts[2] %}
+                {% for i in (1..stars) %}
+                    <span class="glyphicon glyphicon-star"></span>
+                {% endfor %}
+                
+                <small>{{ ts[1]  | date: '%B %d, %Y' }}</small>
             </li>
         {% endif %}
     {% endif %}

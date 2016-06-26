@@ -13,18 +13,15 @@ description: "Light nugs .. frosty .. FLUFFY!"
 categories: [wa, northwest-grown, sativa]
 tags: [frosty, fluffy]
 
-look-rate: 9
-smell-rate: 5
-taste-rate: 7
-high-rate: 9
-last-rate: 9
+rate:
+     look: 9
+     smell: 5
+     taste: 7
+     high: 9
+     length: 9
 
 wh: [
-     [smuggler brothers, 00, true],
-     [the joint,         13, false],
-     [cannerax,          00, false],
-     [loving farms,      00, false],
-     [221 inc,           00, false]
+     [the joint,         13, false]
     ]
 
 ts: [

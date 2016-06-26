@@ -4,10 +4,9 @@ strain: "Agent Orange"
 farm: noble farms
 thumbnail: https://s19.postimg.org/euaoytghv/agent_orange_noble_farm_packaging.jpg
 
-harvest-date: 6/1/2016
 harvest-data-ISO-8601: 2016-06-01
 
-test-date: 
+test-date-ISO-8601: 
 
 description: A nice, easy ride.
 categories: [wa, noble-farms, sativa]
@@ -16,18 +15,15 @@ tags: [chill, productive, creative]
 sativa-per: 70
 indica-per: 30
 
-look-rate: 9
-smell-rate: 7
-taste-rate: 7
-high-rate: 8
-last-rate: 9 
+rate:
+     look: 9
+     smell: 7
+     taste: 7
+     high: 8
+     length: 9 
 
 wh: [
-     [smuggler brothers, 14, true],
-     [the joint,         00, false],
-     [cannerax,          00, false],
-     [loving farms,      00, false],
-     [221 inc,           00, false]
+     [smuggler brothers, 14, true]
     ]
     
 ts: [

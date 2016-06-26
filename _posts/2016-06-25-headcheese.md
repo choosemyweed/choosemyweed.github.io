@@ -4,30 +4,25 @@ strain: "headcheese"
 farm: emerald evolution
 thumbnail: https://s19.postimg.org/jhc5muegz/headcheese_emerald_evolution.jpg
 
-harvest-date: 
-test-date: 
-purchase-date: 
+harvest-date-ISO-8601: 
+test-date-ISO-8601:
 
 description: "Dense & sticky buds .. Soooooo potent"
 categories: [wa, emerald-evolution, hybrid]
 tags: [headband, cheese, sticky, dense]
 
-look-rate: 9
-smell-rate: 8
-taste-rate: 8
-high-rate: 10
-last-rate: 9
+rate:
+     look: 9
+     smell: 8
+     taste: 8
+     high: 10
+     length: 9
 
 wh: [
-     [smuggler brothers, 19, true],
-     [the joint,         00, false],
-     [cannerax,          00, false],
-     [loving farms,      00, false],
-     [221 inc,           00, false]
+     [smuggler brothers, 19, true]
     ]
     
 ts : [
-     []
      ]
 ---
 {% include JB/setup %}
