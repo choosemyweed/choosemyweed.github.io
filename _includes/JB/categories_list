@@ -3,17 +3,17 @@
 {% else %}
   {% if categories_list.first[0] == null %}
     {% for category in categories_list %} 
-    	<li><a class="label label-pill label-info" href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
-    		{{ category | join: "/" }} 
-    		<span class="label label-pill label-default">{{ site.categories[category].size }}</span>
-    	</a></li>
+      <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref"
+         type="button" class="btn btn-default">
+      		{{ category | join: "/" }} 
+    	</a>
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
-    	<li><a class="label label-pill label-info" href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+    	<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref"
+    	   type="button" class="btn btn-default">
     		{{ category[0] | join: "/" }} 
-    		<span  class="label label-pill label-default">{{ category[1].size }}</span>
-    	</a></li>
+    	</a>
     {% endfor %}
   {% endif %}
 {% endif %}

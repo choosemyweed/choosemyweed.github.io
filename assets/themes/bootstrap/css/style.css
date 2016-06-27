@@ -87,6 +87,14 @@
   border: 1px solid #333333;
 }
 
+.top-box {
+  margin-top: 26px;
+}
+
+.top-box div panel {
+  margin-top: 16px;
+}
+
 .rate-box div ul{
     list-style: none;
     margin: 16px 0px 0px 0px;

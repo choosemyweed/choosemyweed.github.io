@@ -1,9 +1,9 @@
-<div itemscope itemtype="http://schema.org/Product">
+<div itemscope itemtype="http://schema.org/Product" class="post-full">
   <div class="page-header margin-16">
     
     {% if page.thumbnail %}
       <span class="thumb-left">
-        <img itemprop="image" class="img-responsive thumb-edge dangle-left-lg" src="{{ page.thumbnail }}"/>
+        <img itemprop="image" class="img-responsive thumb-edge dangle-left-lg" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
       </span>
     {% endif %}
     
@@ -24,7 +24,7 @@
     {% endif %}
   </div>
   
-  <div class="row rate-box">
+  <div class="row top-box rate-box">
     <div class="col-xs-12 col-sm-12 col-md-4">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -54,9 +54,27 @@
         </div>
       </div>
     {% endif %}
+    
+    {% if page.categories or page.tags %}
+      <div class="col-xs-12 col-sm-2 col-md-2">
+        <div class="btn-group-vertical" role="group" aria-label="...">
+          <small>Profile</small>
+          {% unless page.categories == empty %}
+              {% assign categories_list = page.categories %}
+              {% include JB/categories_list %}
+          {% endunless %}
+          
+          {% unless page.tags == empty %}
+              {% assign tags_list = page.tags %}
+              {% include JB/tags_list %}
+          {% endunless %}
+        </div>
+      </div>
+    {% endif %}
+    
   </div>
   
-  <div class="row post-full">
+  <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
       <div itemprop="description" class="content">
         {{ content }}
@@ -65,13 +83,14 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title">Marijuana Catalog</h3>
+          <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
         </div>
         <div class="panel-body row text-capitalize">
-            {% for like in site.related_posts limit: 2 %}
+            {% for like in site.related_posts limit: 3 %}
               {% if like.thumbnail %}
-                <div class="col-md-6">
+                <div class="col-md-4">
                   <a href="{{ BASE_PATH }}{{ like.url }}" strain="{{ like.strain }}">
-                    <img class="img-responsive thumb-edge thumb-center" title="{{ like.strain }}" src="{{ like.thumbnail }}"/>
+                    <img class="img-responsive thumb-edge thumb-center" title="{{ like.strain }}" src="{{ like.thumbnail }}" alt="{{ like.title }}"/>
                   </a>
                 </div>
               {% endif %}
@@ -79,36 +98,8 @@
         </div>
       </div>
   
-      {% unless page.categories == empty %}
-        <ul class="list-inline">
-          {% assign categories_list = page.categories %}
-          {% include JB/categories_list %}
-        </ul>
-      {% endunless %}
-  
-      {% unless page.tags == empty %}
-        <ul class="list-inline">
-          {% assign tags_list = page.tags %}
-          {% include JB/tags_list %}
-        </ul>
-      {% endunless %}
-    
-      <hr>
       
-      <ul class="pagination">
-        {% if page.previous %}
-          <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" strain="{{ page.previous.strain }}">&larr; {{ page.previous.title }}</a></li>
-        {% else %}
-          <li class="prev disabled"><a>&larr; Previous</a></li>
-        {% endif %}
-          <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
-        {% if page.next %}
-          <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" strain="{{ page.next.strain }}">{{ page.next.title }} &rarr;</a></li>
-        {% else %}
-          <li class="next disabled"><a>Next &rarr;</a>
-        {% endif %}
-      </ul>
-      <hr>
+      
       {% include JB/comments %}
     </div>
   </div>
