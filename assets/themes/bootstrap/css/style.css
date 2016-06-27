@@ -119,6 +119,12 @@
   padding: 2px;
 }
 
+.content-highlight {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-left: 2px solid #3b579d;
+}
+
 h1 span {
   display: inline-block;
 }
