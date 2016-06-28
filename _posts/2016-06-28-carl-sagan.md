@@ -8,9 +8,9 @@ harvest-date-ISO-8601: 2016-02-01
 
 test-date-ISO-8601: 
 
-description: "You'll be watching 'The Cosmos' in not time .. or space time"
+description: "Spacey .. Get it?!"
 categories: [wa, fruit of the root, indica]
-tags: [night time, dense]
+tags: [dense, ]
 
 sativa-per: 
 indica-per: 
@@ -28,21 +28,28 @@ ts:
      ubi: 603355893
      trans: [
             [6033596130001699, 11, 2016-06-27, 3]
-     ]
+            ]
 ---
 {% include JB/setup %}
 
+#### Decent -but- expected more.
+
+![profile carl sagan weed](https://s19.postimg.org/r6wxlk88z/carl_sagan_profile.jpg)
+
+This strain is decent but Western Washington producers grow indica strains with a more potent effect.
+No hard feelings towards a great producer like Fruit of the Root, just don't get your hopes too high.
+Next years batch could always be better, or the harvest just needs a little aging.
+
+### Still very pretty little buds.
+
+![pretty little carl sagan bud](https://s19.postimg.org/mz25ct6tf/carl_sagan_close_up.jpg)
+
 ### Everything is made from star stuff!
 
-Even Carl Sagan!
-
-Even the pipe you rip huge bowls, or your triple-perk dab rig, all are made of star stuff.
+Even Carl Sagan ...
 
 ![sexy carl sagan if he smoked marijuana](https://s19.postimg.org/b3kglr6pv/carlsagansexy.jpg)
 
-#### Decent ....
+That pipe you rip huge bowls, or your triple-perk dab rig, all are made of star stuff.
 
-This strain is decent but Western Washington produces better indica strains than this.
-No hard feelings towards a great producer like Fruit of the Root, but wait for this one to go on sale.
-Next year may be a better batch.
-
+#### Just sayin'
