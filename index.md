@@ -9,13 +9,25 @@ tagline: Find Weed in Northwest Washington
   <div class="list-group sativa">
     <h3>Sativa</h3>
     {% for post in site.categories.sativa %}
-        <a href="{{ BASE_PATH }}{{ post.url }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ post.title }}</h4>
-          <p class="list-group-item-text">
-            {{ post.description }}
-          </p>
+      {% if post.thumbnail %}
+        <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
+          <img class="thumb-edge" src="{{ post.thumbnail }}"/>
+          <span class="content-center-text-absolute text-capitalize">
+          <div>
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+            </div>
+          </span>
         </a>
-    {% endfor %}    
+      {% else %}  
+        <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
+          <span class="text-capitalize">
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+          </span>
+        </a>
+      {% endif %}
+    {% endfor %}      
   </div>
 </div>
 
@@ -23,13 +35,25 @@ tagline: Find Weed in Northwest Washington
   <div class="list-group hybrid">
     <h3>Hybrid</h3>
     {% for post in site.categories.hybrid %}
-        <a href="{{ BASE_PATH }}{{ post.url }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ post.title }}</h4>
-          <p class="list-group-item-text">
-            {{ post.description }}
-          </p>
+      {% if post.thumbnail %}
+        <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
+          <img class="thumb-edge" src="{{ post.thumbnail }}"/>
+          <span class="content-center-text-absolute text-capitalize">
+          <div>
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+            </div>
+          </span>
         </a>
-    {% endfor %}    
+      {% else %}  
+        <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
+          <span class="text-capitalize">
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+          </span>
+        </a>
+      {% endif %}
+    {% endfor %}     
   </div>
 </div>
 
@@ -37,12 +61,24 @@ tagline: Find Weed in Northwest Washington
   <div class="list-group indica">
     <h3>Indica</h3>
     {% for post in site.categories.indica %}
-        <a href="{{ BASE_PATH }}{{ post.url }}" class="list-group-item">
-          <h4 class="list-group-item-heading">{{ post.title }}</h4>
-          <p class="list-group-item-text">
-            {{ post.description }}
-          </p>
+      {% if post.thumbnail %}
+        <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
+          <img class="thumb-edge" src="{{ post.thumbnail }}"/>
+          <span class="content-center-text-absolute text-capitalize">
+          <div>
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+            </div>
+          </span>
         </a>
+      {% else %}  
+        <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
+          <span class="text-capitalize">
+            <h4>{{ post.title }}</h4>
+            <h5>{{ post.farm }}</h5>
+          </span>
+        </a>
+      {% endif %}
     {% endfor %}    
   </div>
 </div>
