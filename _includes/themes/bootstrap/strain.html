@@ -79,8 +79,17 @@
       <div class="content-highlight">
         <div itemprop="description" class="content">
           {{ content }}
+          
+          {% if page.farm-desc %}
+            <hr>
+            <h3><small>From the Farm:</small></h3>
+            <i>{{ page.farm-desc }}</i>
+          {% endif %}
         </div>
-        {% include JB/comments %}
+        
+        <div class="comments">
+          {% include JB/comments %}
+        </div>
       </div>
       
       <div class="panel panel-default">

@@ -117,6 +117,10 @@
   border: 1px solid #333333;
 }
 
+.comments {
+  margin: 40px 4px;
+}
+
 .top-box {
   margin-top: 26px;
 }
