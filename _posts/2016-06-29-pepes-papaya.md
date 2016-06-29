@@ -11,6 +11,7 @@ test-date-ISO-8601:
 description: ''
 farm-desc: 'Indica-dominent, this hybrid is papaya crossed with Hawaiian exoctic. 
             Earthy and sweet with a papaya finish. Delivers a calming and relaxing high.'
+            
 categories: [wa, pepes-papaya, hybrid]
 tags: [fruity, funny, uplifting]
 

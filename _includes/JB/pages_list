@@ -7,12 +7,10 @@
       	{% if page.url == node.url %}
       	  <li class="active">
       	    <a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a>
-      	    <small>{{node.farm}}</small>
       	  </li>
       	{% else %}
       	  <li>
       	    <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
-      	    <small>{{node.farm}}</small>
       	  </li>
       	{% endif %}
       {% endif %}

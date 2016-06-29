@@ -52,6 +52,10 @@
     box-shadow: 2px 4px 7px #cfdad2;
 }
 
+.margin-bottom-32 {
+  margin-bottom: 32px;
+}
+
 .dangle-left-sm {
     -ms-transform: rotate(-3.2deg);
     -webkit-transform: rotate(-3.2deg);

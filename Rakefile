@@ -78,8 +78,7 @@ task :strain do
   title = ENV["title"] || "new-strain"
   farm = ENV["farm"] || "farm"
   tags = ENV["tags"] || "[]"
-  tmp = title + ' ' + farm
-  slug = tmp.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
   rescue => e
