@@ -76,8 +76,10 @@ desc "Begin a new strain in #{CONFIG['posts']}"
 task :strain do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-strain"
+  farm = ENV["farm"] || "farm"
   tags = ENV["tags"] || "[]"
-  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  tmp = title + ' ' + farm
+  slug = tmp.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
   rescue => e
@@ -94,7 +96,7 @@ task :strain do
     post.puts "---"
     post.puts "layout: strain"
     post.puts "strain: \"#{title.gsub(/-/,' ')}\""
-    post.puts "farm: "
+    post.puts "farm: \"#{farm.gsub(/-/,' ')}\""
     post.puts "thumbnail: "
     post.puts ""
     post.puts "harvest-date-ISO-8601: "
@@ -102,6 +104,8 @@ task :strain do
     post.puts "test-date-ISO-8601: "
     post.puts ""
     post.puts "description: ''"
+    post.puts "farm-desc: ''"
+    post.puts ""
     post.puts "categories: []"
     post.puts "tags: []"
     post.puts ""

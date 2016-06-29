@@ -1,7 +1,8 @@
 ---
 layout: strain
 strain: "super silver haze"
-farm: fruit of the root
+farm: sun grown organix
+brand: fruit of the root
 thumbnail: https://s19.postimg.org/bud6rj937/super_silver_haze_package.jpg
 
 harvest-date-ISO-8601: 2016-02-01
@@ -9,7 +10,7 @@ harvest-date-ISO-8601: 2016-02-01
 test-date-ISO-8601: 
 
 description: "Skunky .. with the funky feelings.."
-categories: [wa, fruit of the root, sativa]
+categories: [wa, sun-grown-organix, fruit-of-the-root, sativa]
 tags: [skunky, dense, heavy hitter]
 
 sativa-per: 
@@ -34,10 +35,10 @@ ts:
 
 ## Dense nugs .. sweet auroma
 
-Open it and let that pungent smell wiffer around.
+Open it and let that pungent smell whiff around.
 That's all you will want to do, you'll forget about smoking it, 
 it's basically an air freshiner that's illegal to open or use in a vehicle.
 
-### Dramatic shot alert
+### Dramatic shot
 
 ![dramatic shot of super silver haze](https://s19.postimg.org/556nbinr7/super_silver_haze_1_gram.jpg)

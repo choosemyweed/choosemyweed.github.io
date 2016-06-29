@@ -1,7 +1,8 @@
 ---
 layout: strain
 strain: "carl sagan"
-farm: fruit of the root
+farm: sun grown organix
+brand: fruit of the root
 thumbnail: https://s19.postimg.org/jxbd2utoj/carl_sagan_package.jpg
 
 harvest-date-ISO-8601: 2016-02-01
@@ -9,7 +10,7 @@ harvest-date-ISO-8601: 2016-02-01
 test-date-ISO-8601: 
 
 description: "Spacey .. Get it?!"
-categories: [wa, fruit of the root, indica]
+categories: [wa, sun-grown-organix, fruit-of-the-root, indica]
 tags: [dense, ]
 
 sativa-per: 
@@ -36,11 +37,11 @@ ts:
 
 ![profile carl sagan weed](https://s19.postimg.org/r6wxlk88z/carl_sagan_profile.jpg)
 
-This strain is decent but Western Washington producers grow indica strains with a more potent effect.
+This strain is decent but other Washington producers grow indica strains with a more potent effect.
 No hard feelings towards a great producer like Fruit of the Root, just don't get your hopes too high.
 Next years batch could always be better, or the harvest just needs a little aging.
 
-### Still very pretty little buds.
+### Still very nice little buds.
 
 ![pretty little carl sagan bud](https://s19.postimg.org/mz25ct6tf/carl_sagan_close_up.jpg)
 

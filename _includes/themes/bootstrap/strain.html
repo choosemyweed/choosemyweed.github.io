@@ -11,16 +11,17 @@
       <span class="margin-16-left">
         <span itemprop="name" class="text-capitalize">{{ page.strain }}</span> 
         {% if page.farm %}
-          <small>from <span itemprop="brand" class="text-capitalize">{{page.farm}}</span></small>
+          <small>from <span itemprop="brand" class="text-capitalize">{% if page.brand %}{{ page.brand }}{% elsif page.farm %}{{page.farm}}{% endif %}</span></small>
         {% endif %}
       </span>
     </h1>
   </div>
   
   <div class="top-bar">
-    {% if page.harvest-date-ISO-8601 %}
-      <span>Last known harvest date: <date itemprop="productionDate">{{page.harvest-date-ISO-8601  | date: '%B %d, %Y'}}</date></span>
-      <input type="hidden" itemprop="productionDate" value="{{page.harvest-date-ISO-8601}}"/>
+    {% if page.farm and page.brand %}
+      <span class="text-capitalize">
+        Produced by {{page.farm}}
+      </span>
     {% endif %}
   </div>
   
@@ -76,20 +77,20 @@
   
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="content-highlight">
-        <div itemprop="description" class="content">
-          {{ content }}
-          
-          {% if page.farm-desc %}
-            <hr>
-            <h3><small>From the Farm:</small></h3>
-            <i>{{ page.farm-desc }}</i>
-          {% endif %}
-        </div>
+      <div itemprop="description" class="content margin-bottom-32">
+        {{ content }}
         
-        <div class="comments">
-          {% include JB/comments %}
-        </div>
+        {% if page.farm-desc %}
+          <hr>
+            <h3><small>From the Producer:</small></h3>
+            <i>{{ page.farm-desc }}</i>
+        {% endif %}
+        
+        {% if page.harvest-date-ISO-8601 %}
+          <hr>
+            <span>Last known harvest date: <date itemprop="productionDate">{{page.harvest-date-ISO-8601  | date: '%B %d, %Y'}}</date></span>
+            <input type="hidden" itemprop="productionDate" value="{{page.harvest-date-ISO-8601}}"/>
+        {% endif %}
       </div>
       
       <div class="panel panel-default">
@@ -109,6 +110,7 @@
             {% endfor %}
         </div>
       </div>
+      {% include JB/comments %}
     </div>
   </div>
 </div>

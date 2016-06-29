@@ -1,14 +1,14 @@
 ---
 layout: home
 title: Home
-tagline: Find Weed in Northwest Washington
+tagline: Find Weed in Skagit Valley
 ---
 {% include JB/setup %}
 
 <div class="col-xs-12 col-md-4">
   <div class="list-group sativa">
     <h3>Sativa</h3>
-    {% for post in site.categories.sativa %}
+    {% for post in site.categories.sativa limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
           <img class="thumb-edge" src="{{ post.thumbnail }}"/>
@@ -34,7 +34,7 @@ tagline: Find Weed in Northwest Washington
 <div class="col-xs-12 col-md-4">
   <div class="list-group hybrid">
     <h3>Hybrid</h3>
-    {% for post in site.categories.hybrid %}
+    {% for post in site.categories.hybrid limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
           <img class="thumb-edge" src="{{ post.thumbnail }}"/>
@@ -60,7 +60,7 @@ tagline: Find Weed in Northwest Washington
 <div class="col-xs-12 col-md-4">
   <div class="list-group indica">
     <h3>Indica</h3>
-    {% for post in site.categories.indica %}
+    {% for post in site.categories.indica limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
           <img class="thumb-edge" src="{{ post.thumbnail }}"/>

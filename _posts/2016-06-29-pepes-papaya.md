@@ -4,14 +4,14 @@ strain: "pepe's papaya"
 farm: dream city
 thumbnail: https://s19.postimg.org/8xzciqi0z/WP_20160628_20_33_48_Pro.jpg
 
-harvest-date-ISO-8601: 2016-05
+harvest-date-ISO-8601: 2016-05-01
 
 test-date-ISO-8601: 
 
 description: ''
 farm-desc: 'Indica-dominent, this hybrid is papaya crossed with Hawaiian exoctic. 
             Earthy and sweet with a papaya finish. Delivers a calming and relaxing high.'
-categories: [wa, pepe's papaya, hybrid]
+categories: [wa, pepes-papaya, hybrid]
 tags: [fruity, funny, uplifting]
 
 sativa-per: 

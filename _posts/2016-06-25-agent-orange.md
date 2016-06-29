@@ -9,6 +9,7 @@ harvest-data-ISO-8601: 2016-06-01
 test-date-ISO-8601: 
 
 description: A nice, easy ride.
+farm-desc: 'Fun & Relaxed'
 categories: [wa, noble-farms, sativa]
 tags: [chill, productive, creative]
 

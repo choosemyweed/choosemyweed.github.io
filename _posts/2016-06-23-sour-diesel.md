@@ -5,10 +5,11 @@ farm: Life Gardens
 
 thumbnail: https://s19.postimg.org/4ham7iitf/WP_20160623_14_53_29_Pro_1.jpg
 
-harvest-date-ISO-8601: 2/23/2016
+harvest-date-ISO-8601: 2016-02-23
 test-date-ISO-8601: 
 
 description: "Earthy undertone .. Hits like a street sweeper"
+farm-desc: "Focus"
 categories: [wa, life-gardens, spark, sativa]
 tags: [productive, head-high, classic]
 
