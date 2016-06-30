@@ -2,11 +2,11 @@
 layout: strain
 strain: Critical Jack
 farm: Sweet As
-thumbnail: 
+thumbnail: https://s19.postimg.org/71kzx4kw3/WP_20160630_14_52_58_Pro.jpg
+thumb-large: https://s19.postimg.org/5u724wurj/WP_20160630_14_52_58_Pro.jpg
 
 test-date-ISO-8601: 
-purchase-date: 06/21/2016
-harvest-date-ISO-8601: 05/12/2016
+harvest-date-ISO-8601: 2016-05-12
 
 
 description: "Pleasantly Productive"
@@ -22,9 +22,10 @@ rate:
 ts: 
     smuggler brothers:
         ubi: 603355893
-        trans: [
-                [6033507870007144, 14, 2016-06-21, 3.4]
-                ]
+        trans: 
+            - [6033507870007144, 14, 2016-06-21, 3.4]
+            - [6033507870007144, 14, 2016-06-30, 3.4]
+                
 
 ---
 {% include JB/setup %}
@@ -33,7 +34,11 @@ ts:
 
 This is a decent sativa strain for the low-to-mid level smoker.
 
+![1 gram of critical jack from sweet as](https://s19.postimg.org/wzt7gwfr7/WP_20160630_14_55_22_Pro.jpg)
+
 #### Loosly packed buds .. even burn-rate
 
-Don't expect to to be "flying high", just floating around a bit,
-but you'll be keeping it productive. 
+Don't expect to to be "flying high", just floating around a bit. 
+No worries, you'll still be plenty productive. 
+
+![close up look at critical jack from sweet as](https://s19.postimg.org/8hwif9nsz/WP_20160630_14_56_49_Pro.jpg)

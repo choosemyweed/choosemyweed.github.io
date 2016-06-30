@@ -9,6 +9,7 @@ CONFIG = {
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
+  'stores' => File.join(SOURCE, "_stores"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -22,7 +23,8 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts",
+      :stores => "_stores"
     }
     
     def self.base
@@ -96,6 +98,55 @@ task :strain do
     post.puts "layout: strain"
     post.puts "strain: \"#{title.gsub(/-/,' ')}\""
     post.puts "farm: \"#{farm.gsub(/-/,' ')}\""
+    post.puts "thumbnail: "
+    post.puts ""
+    post.puts "harvest-date-ISO-8601: "
+    post.puts ""
+    post.puts "test-date-ISO-8601: "
+    post.puts ""
+    post.puts "description: ''"
+    post.puts "farm-desc: ''"
+    post.puts ""
+    post.puts "categories: []"
+    post.puts "tags: []"
+    post.puts ""
+    post.puts "sativa-per: "
+    post.puts "indica-per: "
+    post.puts ""
+    post.puts "rate:"
+    post.puts "   look: "
+    post.puts "   smell: "
+    post.puts "   taste: "
+    post.puts "   high: "
+    post.puts "   last: "
+    post.puts ""
+    post.puts "[comment]: [<lot number>, <purchase price>, <purchase date>, <aggr. rating (of 5)>]"
+    post.puts "ts: "
+    post.puts " smuggler brothers:"
+    post.puts "     ubi: 603355893"
+    post.puts "     trans: []"
+    post.puts "---"
+    post.puts "{% include JB/setup %}"
+  end
+end # task :post
+
+# Usage: rake store title="A Title" ubi="123456789"
+desc "Begin a new store in #{CONFIG['stores']}"
+task :store do
+  abort("rake aborted: '#{CONFIG['stores']}' directory not found.") unless FileTest.directory?(CONFIG['stores'])
+  title = ENV["title"] || "new-store"
+  ubi = ENV["ubi"] || "new-store"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  filename = File.join(CONFIG['stores'], "#{ubi}-#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  
+  puts "Creating new store: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: strain"
+    post.puts "strain: \"#{title.gsub(/-/,' ')}\""
     post.puts "thumbnail: "
     post.puts ""
     post.puts "harvest-date-ISO-8601: "

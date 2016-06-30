@@ -4,7 +4,7 @@
             <ul>
                 {% if forloop.first == true %}
                     {% for feed in ts[1] %}
-                        {% for trans in feed[1] %}
+                        {% for trans in feed[1] reversed %}
                             {% if trans.first != empty %}
                                 {% if forloop.first == true %}
                                     <li>
