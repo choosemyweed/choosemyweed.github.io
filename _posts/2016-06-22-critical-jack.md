@@ -11,7 +11,7 @@ harvest-date-ISO-8601: 05/12/2016
 
 description: "Pleasantly Productive"
 categories: [wa, sweet-as, sativa]
-tags: [dense, tasty, productivity]
+tags: [dense, tasty, productive]
 
 rate:
         look: 6

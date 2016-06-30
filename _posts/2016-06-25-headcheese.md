@@ -9,7 +9,9 @@ test-date-ISO-8601 :
 
 description: "Dense & sticky buds .. Soooooo potent"
 categories: [wa, emerald-evolution, hybrid]
-tags: [headband, cheese, sticky, dense]
+tags: [sticky, dense]
+
+strain-base: [headband, cheese]
 
 rate:
      look: 9

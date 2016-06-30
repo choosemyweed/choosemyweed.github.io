@@ -88,8 +88,7 @@
         
         {% if page.harvest-date-ISO-8601 %}
           <hr>
-            <span>Last known harvest date: <date itemprop="productionDate">{{page.harvest-date-ISO-8601  | date: '%B %d, %Y'}}</date></span>
-            <input type="hidden" itemprop="productionDate" value="{{page.harvest-date-ISO-8601}}"/>
+            <i>Last known harvest date: <date itemprop="productionDate">{{page.harvest-date-ISO-8601  | date: '%B %d, %Y'}}</date></i>
         {% endif %}
       </div>
       

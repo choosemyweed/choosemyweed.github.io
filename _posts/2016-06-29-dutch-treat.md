@@ -36,10 +36,11 @@ ts:
 
 ## Smelly and skunky
 
-Open it, smell .. roll it up and pass it around.
+Open it -sniff- roll up and pass it around.
 
+### Space out .. like space cat
 
-### Space out
+![cat sitting on weed](https://s19.postimg.org/culv67hs3/cat_on_weed.gif)
 
 Forget what you're doing, 
 give in to your creativity and curiosity.

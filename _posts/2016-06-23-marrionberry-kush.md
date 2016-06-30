@@ -10,7 +10,9 @@ harvest-date-ISO-8601: 2016-03-10
 
 description: "Mild and Earthy"
 categories: [wa, badass-grass, indica]
-tags: [dense, earthy, kush]
+tags: [dense, earthy]
+
+strain-base: [kush]
 
 rate:
         look: 4

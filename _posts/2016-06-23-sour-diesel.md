@@ -11,7 +11,7 @@ test-date-ISO-8601:
 description: "Earthy undertone .. Hits like a street sweeper"
 farm-desc: "Focus"
 categories: [wa, life-gardens, spark, sativa]
-tags: [productive, head-high, classic]
+tags: [productive, classic]
 
 rate:
      look: 5
