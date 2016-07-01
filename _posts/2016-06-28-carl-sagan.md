@@ -27,11 +27,11 @@ rate:
 
 [comment]: [<lot number>, <purchase price>, <purchase date>, <aggr. rating (of 5)>]
 ts: 
- smuggler brothers:
-     ubi: 603355893
-     trans: [
-            [6033596130001699, 11, 2016-06-27, 3]
-            ]
+ - store: smuggler brothers
+   ubi: 603355893
+   trans: 
+     - [6033596130001699, 11, 2016-06-27, 3]
+            
 ---
 {% include JB/setup %}
 

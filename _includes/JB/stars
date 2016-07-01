@@ -1,0 +1,4 @@
+{% for i in (1..5) %}
+    <span class="glyphicon glyphicon-star{% if i > stars %}-empty{% endif %}"></span>
+{% endfor %}
+{% assign stars = nil %}

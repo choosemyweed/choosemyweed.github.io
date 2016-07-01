@@ -20,11 +20,11 @@ rate:
      length: 8
 
 ts: 
-    smuggler brothers:
-        ubi: 603355893
-        trans: [
-                [6033591220003239, 13 2016-06-24, 4]
-                ]
+   - store: smuggler brothers
+     ubi: 603355893
+     trans: 
+         - [6033591220003239, 13 2016-06-24, 4]
+                
  
 ---
 {% include JB/setup %}

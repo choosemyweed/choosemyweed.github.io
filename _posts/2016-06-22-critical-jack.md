@@ -20,12 +20,14 @@ rate:
         high: 8
         length: 7
 ts: 
-    smuggler brothers:
-        ubi: 603355893
-        trans: 
-            - [6033507870007144, 14, 2016-06-21, 3.4]
-            - [6033507870007144, 14, 2016-06-30, 3.4]
-                
+    - store: smuggler brothers
+      ubi: 603355893
+      trans: 
+        - [6033507870007144, 14, 2016-06-30, 4]
+        - [6033507870007144, 14, 2016-06-21, 3]
+    - store: cannerax
+      ubi: 603355874
+      trans:            
 
 ---
 {% include JB/setup %}
