@@ -5,8 +5,18 @@
       <a class="thumb-left dangle-left-lg" src="{% if page.thumb-large %}{{ page.thumb-large }}{% endif %}" data-toggle="modal" data-target="#packaging">
         <img itemprop="image" class="img-responsive thumb-edge" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
       </a>
-
-      {% if page.thumb-large %}
+    {% endif %}
+    
+    <h1>
+      <span class="margin-16-left">
+        <span itemprop="name" class="text-capitalize">{{ page.strain }}</span> 
+        {% if page.farm %}
+          <small>from <span itemprop="brand" class="text-capitalize">{% if page.brand %}{{ page.brand }}{% elsif page.farm %}{{page.farm}}{% endif %}</span></small>
+        {% endif %}
+      </span>
+    </h1>
+    
+    {% if page.thumb-large %}
         <div id="packaging" class="modal fade" role="dialog">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -25,15 +35,6 @@
           </div>
         </div>
       {% endif %}
-    {% endif %}
-    <h1>
-      <span class="margin-16-left">
-        <span itemprop="name" class="text-capitalize">{{ page.strain }}</span> 
-        {% if page.farm %}
-          <small>from <span itemprop="brand" class="text-capitalize">{% if page.brand %}{{ page.brand }}{% elsif page.farm %}{{page.farm}}{% endif %}</span></small>
-        {% endif %}
-      </span>
-    </h1>
   </div>
   
   <div class="top-bar">

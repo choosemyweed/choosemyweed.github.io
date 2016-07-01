@@ -13,6 +13,8 @@
                                         {{ page.tags | join: ' ' }}
                                         {{ page.categories | join: ' ' }}
                                       {% endif %}">
+    
+    <meta name="keywords" content="{{ page.tags | join: ' ' }} {{ page.categories | join: ' ' }}">
                                       
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
