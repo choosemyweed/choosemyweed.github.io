@@ -1,47 +1,45 @@
 {% for ts in trans_list %}
-    {% if ts.first.trans != empty and ts.trans %}
-        <li><ul>
-            {% if forloop.first == true %}
-                <li><h4>{{ ts.store }}</h4></li>
-                
-                {% for feed in ts.trans %}
-                    {% if trans.first != empty %}
-                        {% if forloop.first == true %}
-                            <li itemprop="aggregateRating"
-                                itemscope itemtype="http://schema.org/AggregateRating">
-                                
-                                <small>{{ feed[2]  | date: '%B %d, %Y'}}</small>
-                                
-                                {% assign stars = feed[3] %}
-                                {% include JB/stars %}
-                                
-                                <input type="hidden" itemprop="ratingValue" value="{{ feed[3] }}"/>
-                                <input type="hidden" itemprop="ratingCount" value="{{ forloop.length }}"/>
-                            </li>
-                        {% else %}
-                            <li>
-                                <small>{{ feed[2]  | date: '%B %d, %Y' }}</small>
-                                {% assign stars = feed[3] %}
-                                {% include JB/stars %}
-                            </li>
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-            {% else %}
-                <li><h4>{{ ts.store }}</h4></li>
-                
-                {% for feed in ts.trans %}
-                    {% if trans.first != empty %}
+    <li><ul>
+        {% if forloop.first == true %}
+            <li><h4>{{ ts.store }}</h4></li>
+            
+            {% for feed in ts.trans %}
+                {% if trans.first != empty %}
+                    {% if forloop.first == true %}
+                        <li itemprop="aggregateRating"
+                            itemscope itemtype="http://schema.org/AggregateRating">
+                            
+                            <small>{{ feed[2]  | date: '%B %d, %Y'}}</small>
+                            
+                            {% assign stars = feed[3] %}
+                            {% include JB/stars %}
+                            
+                            <input type="hidden" itemprop="ratingValue" value="{{ feed[3] }}"/>
+                            <input type="hidden" itemprop="ratingCount" value="{{ forloop.length }}"/>
+                        </li>
+                    {% else %}
                         <li>
                             <small>{{ feed[2]  | date: '%B %d, %Y' }}</small>
                             {% assign stars = feed[3] %}
                             {% include JB/stars %}
                         </li>
                     {% endif %}
-                {% endfor %}
-            {% endif %}
-        </ul></li>
-    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <li><h4>{{ ts.store }}</h4></li>
+            
+            {% for feed in ts.trans %}
+                {% if trans.first != empty %}
+                    <li>
+                        <small>{{ feed[2]  | date: '%B %d, %Y' }}</small>
+                        {% assign stars = feed[3] %}
+                        {% include JB/stars %}
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </ul></li>
 {% endfor %}
 
 {% assign trans_list = nil %}

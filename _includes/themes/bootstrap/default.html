@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }}{% if page.farm %} from {{ page.farm }}{% endif %}</title>
     
     <meta name="description" content="{% if page.description != empty %}
                                         {{ page.description }}
@@ -14,7 +14,7 @@
                                         {{ page.categories | join: ' ' }}
                                       {% endif %}">
     
-    <meta name="keywords" content="{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}, weed, marijuana, burlington, sedro woolley, 98284, 98233">
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}, {{ page.categories | join: ', ' }}, weed, marijuana, bud, burlington, sedro woolley, mount vernon, 98274, 98284, 98233, skagit">
                                       
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,19 +35,16 @@
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button>-->
           <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
         </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li></li>
-          </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse"></div>
         </div>
       </div>
     </nav>
