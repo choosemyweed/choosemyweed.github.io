@@ -2,8 +2,8 @@
 layout: strain
 strain: "pepe's papaya"
 farm: dream city
-thumbnail: https://s19.postimg.org/8xzciqi0z/WP_20160628_20_33_48_Pro.jpg
-thumb-large: https://s19.postimg.org/3n7euqev7/WP_20160628_20_33_48_Pro.jpg
+thumbnail: https://s19.postimg.org/nln9x3zk3/small_thumb.jpg
+thumb-large: https://s19.postimg.org/xwzmprr9f/large_thumb.jpg
 
 harvest-date-ISO-8601: 2016-05-01
 
@@ -13,7 +13,7 @@ description: ''
 farm-desc: 'Indica-dominent, this hybrid is papaya crossed with Hawaiian exoctic. 
             Earthy and sweet with a papaya finish. Delivers a calming and relaxing high.'
             
-categories: [wa, pepes-papaya, hybrid]
+categories: [wa, dream-city, hybrid]
 tags: [fruity, funny, uplifting]
 
 sativa-per: 
@@ -26,13 +26,13 @@ rate:
    high: 10
    last: 9
 
-[comment]: [<lot number>, <purchase price>, <purchase date>, <aggr. rating (of 5)>]
+[comment]: [<lot number>, <purchase price - 1 gram>, <purchase date>, <aggr. rating (of 5)>]
 ts: 
  smuggler brothers:
      ubi: 603355893
-     trans: [
-            [6033338510004038, 13, 2016-06-28, 5]
-            ]
+     trans: 
+        - [6033338510004038, 13, 2016-06-28, 5]
+        - [6033338510004038, 13, 2016-06-30, 4]   
 ---
 {% include JB/setup %}
 

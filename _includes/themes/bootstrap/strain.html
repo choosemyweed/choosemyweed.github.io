@@ -2,23 +2,20 @@
   <div class="page-header margin-16">
     
     {% if page.thumbnail %}
-      <a class="thumb-left" src="{% if page.thumb-large %}{{ page.thumb-large }}{% endif %}" data-toggle="modal" data-target="#myModal">
-        <img itemprop="image" class="img-responsive thumb-edge dangle-left-lg" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
+      <a class="thumb-left dangle-left-lg" src="{% if page.thumb-large %}{{ page.thumb-large }}{% endif %}" data-toggle="modal" data-target="#packaging">
+        <img itemprop="image" class="img-responsive thumb-edge" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
       </a>
 
       {% if page.thumb-large %}
-        <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
+        <div id="packaging" class="modal fade" role="dialog">
           <div class="modal-dialog">
-        
-            <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">{{ page.strain }}</h4>
               </div>
               <div class="modal-body">
-                <img class="img-responsive thumb-edge modal-img" src="{{ page.thumb-large }}" alt="{{ page.title }}"/>
+                <img class="img-responsive modal-img" src="{{ page.thumb-large }}" alt="{{ page.title }}"/>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -81,7 +78,12 @@
     {% if page.categories or page.tags %}
       <div class="col-xs-12 col-sm-2 col-md-2">
         <div class="btn-group-vertical" role="group" aria-label="...">
-          <small>Profile</small>
+          {% if page.thumb-large %}
+            <a type="button" class="btn btn-default" src="#" data-toggle="modal" data-target="#packaging">
+              <h4>packaging</h4>
+            </a>
+          {% endif %}
+          
           {% unless page.categories == empty %}
               {% assign categories_list = page.categories %}
               {% include JB/categories_list %}

@@ -2,7 +2,8 @@
 layout: strain
 strain: "master kush"
 farm: green crest
-thumbnail: https://s19.postimg.org/sxp5ej4jn/WP_20160628_20_35_19_Pro.jpg
+thumbnail: https://s19.postimg.org/cpvw1remb/small_thumb.jpg
+thumb-large: https://s19.postimg.org/9500ija2r/large_thumb.jpg
 
 harvest-date-ISO-8601: 2015-11-01
 

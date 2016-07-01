@@ -2,8 +2,8 @@
 layout: strain
 strain: Critical Jack
 farm: Sweet As
-thumbnail: https://s19.postimg.org/71kzx4kw3/WP_20160630_14_52_58_Pro.jpg
-thumb-large: https://s19.postimg.org/kz7rg68cj/WP_20160630_14_52_58_Pro.jpg
+thumbnail: https://s19.postimg.org/j2fmpc72b/small_thumb.jpg
+thumb-large: https://s19.postimg.org/tqjdo6h1f/large_thumb.jpg
 
 test-date-ISO-8601: 
 harvest-date-ISO-8601: 2016-05-12
@@ -15,8 +15,8 @@ tags: [dense, tasty, productive]
 
 rate:
         look: 6
-        smell: 7
-        taste: 6
+        smell: 8
+        taste: 8
         high: 8
         length: 7
 ts: 

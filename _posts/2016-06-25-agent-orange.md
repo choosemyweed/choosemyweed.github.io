@@ -2,7 +2,9 @@
 layout: strain
 strain: "Agent Orange"
 farm: noble farms
-thumbnail: https://s19.postimg.org/euaoytghv/agent_orange_noble_farm_packaging.jpg
+
+thumbnail: https://s19.postimg.org/gsrieky4j/small_thumb.jpg
+thumb-large: https://s19.postimg.org/cxo4c0eyr/large_thumb.jpg
 
 harvest-data-ISO-8601: 2016-06-01
 

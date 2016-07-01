@@ -3,6 +3,7 @@ layout: strain
 strain: "Dutch Treat"
 farm: "western culture"
 thumbnail: 
+thumb-large: 
 
 harvest-date-ISO-8601: 2016-05-19
 

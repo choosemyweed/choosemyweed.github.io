@@ -3,7 +3,9 @@ layout: strain
 strain: "carl sagan"
 farm: sun grown organix
 brand: fruit of the root
-thumbnail: https://s19.postimg.org/jxbd2utoj/carl_sagan_package.jpg
+
+thumbnail: https://s19.postimg.org/6u6js3ooz/small_thumb.jpg
+thumb-large: https://s19.postimg.org/513n3s3ib/large_thumb.jpg
 
 harvest-date-ISO-8601: 2016-02-01
 
@@ -33,19 +35,21 @@ ts:
 ---
 {% include JB/setup %}
 
-#### Decent -but- expected more.
+#### Mild body buzz
 
 ![profile carl sagan weed](https://s19.postimg.org/r6wxlk88z/carl_sagan_profile.jpg)
 
-This strain is decent but other Washington producers grow indica strains with a more potent effect.
-No hard feelings towards a great producer like Fruit of the Root, just don't get your hopes too high.
-Next years batch could always be better, or the harvest just needs a little aging.
+Gave this strain another try and boy was I wrong. I sank into the couch and that was it .. gone. 
 
-### Still very nice little buds.
+~~This strain is decent but other Washington producers grow indica strains with a more potent effect.
+No hard feelings towards a~~ **Great producer like Fruit of the Root** ~~, just don't get your hopes too high.
+Next years batch could always be better, or the harvest just needs a little aging.~~
+
+### Beautiful buds
 
 ![pretty little carl sagan bud](https://s19.postimg.org/mz25ct6tf/carl_sagan_close_up.jpg)
 
-### Everything is made from star stuff!
+### Everything is made of star stuff!
 
 Even Carl Sagan ...
 

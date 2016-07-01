@@ -4,8 +4,8 @@ strain: "super silver haze"
 farm: sun grown organix
 brand: fruit of the root
 
-thumbnail: https://s19.postimg.org/bud6rj937/super_silver_haze_package.jpg
-thumb-large: https://s19.postimg.org/oldkstepv/super_silver_haze_package.jpg
+thumbnail: https://s19.postimg.org/72zj4ac3n/small_thumb.jpg
+thumb-large: https://s19.postimg.org/p7752nz5v/large_thumb.jpg
 
 harvest-date-ISO-8601: 2016-02-01
 test-date-ISO-8601: 
@@ -20,7 +20,7 @@ indica-per:
 rate:
    look: 7
    smell: 9
-   taste: 8
+   taste: 6
    high: 9
    last: 8
 
