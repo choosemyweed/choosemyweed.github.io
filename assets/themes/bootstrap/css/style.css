@@ -1,14 +1,14 @@
-.sativa h3{
+.sativa h2{
   background-color: #ffc0cc;
   color: red;
 }
 
-.hybrid h3{
+.hybrid h2{
   background-color: #beffba;
   color: green;
 }
 
-.indica h3{
+.indica h2{
   background-color: #bacfff;
   color: blue;
 }

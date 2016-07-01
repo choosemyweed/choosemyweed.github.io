@@ -7,7 +7,7 @@ tagline: Find Weed in Skagit Valley
 
 <div class="col-xs-12 col-md-4">
   <div class="list-group sativa">
-    <h3>Sativa</h3>
+    <h2>Sativa</h2>
     {% for post in site.categories.sativa limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
@@ -33,7 +33,7 @@ tagline: Find Weed in Skagit Valley
 
 <div class="col-xs-12 col-md-4">
   <div class="list-group hybrid">
-    <h3>Hybrid</h3>
+    <h2>Hybrid</h2>
     {% for post in site.categories.hybrid limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
@@ -59,7 +59,7 @@ tagline: Find Weed in Skagit Valley
 
 <div class="col-xs-12 col-md-4">
   <div class="list-group indica">
-    <h3>Indica</h3>
+    <h2>Indica</h2>
     {% for post in site.categories.indica limit:5 %}
       {% if post.thumbnail %}
         <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
