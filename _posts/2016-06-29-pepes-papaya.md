@@ -9,7 +9,7 @@ harvest-date-ISO-8601: 2016-05-01
 
 test-date-ISO-8601: 
 
-description: ''
+description: ""
 farm-desc: 'Indica-dominent, this hybrid is papaya crossed with Hawaiian exoctic. 
             Earthy and sweet with a papaya finish. Delivers a calming and relaxing high.'
             
