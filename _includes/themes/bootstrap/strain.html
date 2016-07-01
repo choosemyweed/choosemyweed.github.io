@@ -81,19 +81,9 @@
         <div class="btn-group-vertical" role="group" aria-label="...">
           {% if page.thumb-large %}
             <a type="button" class="btn btn-default" src="#" data-toggle="modal" data-target="#packaging">
-              <h4>packaging</h4>
+              <small>view packaging</small>
             </a>
           {% endif %}
-          
-          {% unless page.categories == empty %}
-              {% assign categories_list = page.categories %}
-              {% include JB/categories_list %}
-          {% endunless %}
-          
-          {% unless page.tags == empty %}
-              {% assign tags_list = page.tags %}
-              {% include JB/tags_list %}
-          {% endunless %}
         </div>
       </div>
     {% endif %}
@@ -105,9 +95,9 @@
       <div itemprop="description" class="content margin-bottom-32">
         {{ content }}
         
-        {% if page.farm-desc %}
+        {% if page.farm-desc and page.farm %}
           <hr>
-            <h3><small>From the Producer:</small></h3>
+            <h3><small class="text-capitalize">From <span class="capitalize">{{ page.farm }}</span>:</small></h3>
             <i>{{ page.farm-desc }}</i>
         {% endif %}
         
@@ -115,6 +105,22 @@
           <hr>
             <i>Last known harvest date: <date itemprop="productionDate">{{page.harvest-date-ISO-8601  | date: '%B %d, %Y'}}</date></i>
         {% endif %}
+        
+        <span class="text-uppercase">
+          {% unless page.categories == empty %}
+              <hr>
+              <b>Categories: </b>
+              {% assign categories_list = page.categories %}
+              {% include JB/categories_list %}
+          {% endunless %}
+          
+          {% unless page.tags == empty %}
+              <hr>
+              <b>Attributes: </b>
+              {% assign tags_list = page.tags %}
+              {% include JB/tags_list %}
+          {% endunless %}
+        </span>
       </div>
       
       <div class="panel panel-default">
