@@ -3,6 +3,7 @@ layout: strain
 strain: "pepe's papaya"
 farm: dream city
 thumbnail: https://s19.postimg.org/8xzciqi0z/WP_20160628_20_33_48_Pro.jpg
+thumb-large: https://s19.postimg.org/3n7euqev7/WP_20160628_20_33_48_Pro.jpg
 
 harvest-date-ISO-8601: 2016-05-01
 

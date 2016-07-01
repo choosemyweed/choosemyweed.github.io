@@ -2,11 +2,33 @@
   <div class="page-header margin-16">
     
     {% if page.thumbnail %}
-      <span class="thumb-left">
+      <a class="thumb-left" src="{% if page.thumb-large %}{{ page.thumb-large }}{% endif %}" data-toggle="modal" data-target="#myModal">
         <img itemprop="image" class="img-responsive thumb-edge dangle-left-lg" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
-      </span>
+      </a>
+
+      {% if page.thumb-large %}
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">{{ page.strain }}</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive thumb-edge modal-img" src="{{ page.thumb-large }}" alt="{{ page.title }}"/>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      {% endif %}
     {% endif %}
-    
     <h1>
       <span class="margin-16-left">
         <span itemprop="name" class="text-capitalize">{{ page.strain }}</span> 

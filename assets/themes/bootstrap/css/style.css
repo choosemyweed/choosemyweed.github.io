@@ -56,6 +56,12 @@
   margin-bottom: 32px;
 }
 
+.modal-img {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
 .dangle-left-sm {
     -ms-transform: rotate(-3.2deg);
     -webkit-transform: rotate(-3.2deg);

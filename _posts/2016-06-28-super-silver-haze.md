@@ -3,10 +3,11 @@ layout: strain
 strain: "super silver haze"
 farm: sun grown organix
 brand: fruit of the root
+
 thumbnail: https://s19.postimg.org/bud6rj937/super_silver_haze_package.jpg
+thumb-large: https://s19.postimg.org/oldkstepv/super_silver_haze_package.jpg
 
 harvest-date-ISO-8601: 2016-02-01
-
 test-date-ISO-8601: 
 
 description: "Skunky .. with the funky feelings.."

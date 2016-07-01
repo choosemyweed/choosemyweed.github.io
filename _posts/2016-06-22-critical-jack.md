@@ -3,7 +3,7 @@ layout: strain
 strain: Critical Jack
 farm: Sweet As
 thumbnail: https://s19.postimg.org/71kzx4kw3/WP_20160630_14_52_58_Pro.jpg
-thumb-large: https://s19.postimg.org/5u724wurj/WP_20160630_14_52_58_Pro.jpg
+thumb-large: https://s19.postimg.org/kz7rg68cj/WP_20160630_14_52_58_Pro.jpg
 
 test-date-ISO-8601: 
 harvest-date-ISO-8601: 2016-05-12
