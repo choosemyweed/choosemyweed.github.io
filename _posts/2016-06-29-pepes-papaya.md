@@ -65,3 +65,6 @@ cause before you know it .. it's gone.
 - listen to music
 - make art
 - sing your little heart out
+
+##### WARNING: Do NOT smoke late at night or before a planned slumber.
+*You may wake up multiple times for no aparant reason*

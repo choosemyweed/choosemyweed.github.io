@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Home
+title: Choose My Weed ..
 tagline: Find Weed in Skagit Valley
 ---
-{% include JB/setup %}
+
 
 <div class="col-xs-12 col-md-4">
   <div class="list-group sativa">
