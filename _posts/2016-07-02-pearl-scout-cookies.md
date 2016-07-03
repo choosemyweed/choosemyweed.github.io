@@ -45,7 +45,7 @@ Pearl Scout Cookies (not to be confused with Girl Scout Cookies [strain or organ
 This strain may throw you a curveball or two. 
 Got an unfinished project? 
 You'll find the enthusiasm to complete half of the half that you had previously completed. 
-You those of you who lost count, that's 1/4 of the project left to finish.
+For those of you not keeping track, that's *1/4* of the project left to finish.
 
 ![closer look at pearl scout cookies](https://s31.postimg.org/bkwvah0nv/pearl_scout_close_up_2.jpg)
 

@@ -11,7 +11,8 @@
     </a>
   {% else %}  
     <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
-      <span class="text-capitalize">
+    <img src="https://s32.postimg.org/3rson09p1/no_image.png"/>
+      <span class="content-center-text-absolute text-capitalize">
         <div>
           <b>{{ post.title }}</b><br />
           <small>{{ post.farm }}</small>

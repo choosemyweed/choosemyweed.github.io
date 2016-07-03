@@ -34,13 +34,13 @@ ts:
 ![great white shark weed](https://s19.postimg.org/j1rp2cds3/WP_20160624_12_38_32_Pro.jpg)
 
 At first glance, this buds sheer beauty will overwelm you,
-but it doesn't stop there. 
+but it doesn't stop there. Oh, no it doesn't ..
 
 #### Take a closer look
 
 ![great white shark marijuana](https://s19.postimg.org/aytir0t6r/WP_20160624_12_38_49_Pro.jpg)
 
-### Closer ...
+### Even closer ...
 
 ![close up great white shark bud](https://s19.postimg.org/goecp2oqr/up_close_great_white_shark_weed.jpg)
 
