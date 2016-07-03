@@ -20,8 +20,8 @@ rate:
      length: 8
 
 ts: 
-   - store: smuggler brothers
-     ubi: 603355893
+   - store: the joint
+     ubi: 603352618
      trans: 
          - [6033591220003239, 13 2016-06-24, 4]
                 

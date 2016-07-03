@@ -3,8 +3,8 @@ layout: strain
 strain: "Super Silver Haze"
 farm: northwest grown
 
-thumbnail: https://s19.postimg.org/jdx323nib/small_thumb.jpg
-thumb-large: https://s19.postimg.org/9s3ilswcj/large_thumb.jpg
+thumbnail: https://s32.postimg.org/fzm59ccol/WP_20160624_12_30_47_Pro.jpg
+thumb-large: https://s31.postimg.org/pcozeulsb/WP_20160624_12_30_47_Pro.jpg
 
 harvest-date: 05/20/2016
 harvest-date-ISO-8601: 2016-05-20
@@ -23,8 +23,8 @@ rate:
      length: 9
 
 ts: 
-    - store: smuggler brothers
-      ubi: 603355893
+    - store: the joint
+      ubi: 603352618
       trans: 
         - [6033591220003251, 13, 2016-06-24, 3.9]
                 

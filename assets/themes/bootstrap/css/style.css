@@ -1,17 +1,18 @@
 .sativa h2{
   background-color: #ffc0cc;
-  color: red;
+  color: #671818;
 }
 
 .hybrid h2{
   background-color: #beffba;
-  color: green;
+  color: #186729;
 }
 
 .indica h2{
   background-color: #bacfff;
-  color: blue;
+  color: #186067;
 }
+
 
 .overlay a {
     display: block;
@@ -116,7 +117,7 @@
 }
 
 .content-center-text-absolute div {
-  background-color: rgba(255, 255, 255, 0.60);
+  background-color: rgba(239, 239, 239, 0.66);;
   padding: 1px;
 }
 
