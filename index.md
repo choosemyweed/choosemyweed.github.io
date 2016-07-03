@@ -2,6 +2,7 @@
 layout: home
 title: Choose My Weed ..
 tagline: Find Weed in Skagit Valley
+keywords: [weed, skagit, find weed, sativa, indica, hybrid]
 ---
 
 

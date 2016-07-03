@@ -9,10 +9,12 @@ harvest-date-ISO-8601: 2016-05-01
 
 test-date-ISO-8601: 
 
-description: ""
+description: "Don't just smoke it .. savor it"
 farm-desc: 'Indica-dominent, this hybrid is papaya crossed with Hawaiian exoctic. 
             Earthy and sweet with a papaya finish. Delivers a calming and relaxing high.'
-            
+
+keywords: [pepes papaya, dream city, fruity, sweet, funny, giggles, uplifting, relaxing, hybrid]
+
 categories: [wa, dream-city, hybrid]
 tags: [fruity, funny, uplifting]
 

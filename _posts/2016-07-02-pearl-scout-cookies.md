@@ -11,6 +11,8 @@ test-date-ISO-8601:
 
 description: "High quality .. frosty little buds"
 farm-desc: 
+
+keywords: [pearl scout cookies, girl scout cookies weed, fire line, fireline, frosty, sweet, hybrid]
             
 categories: [wa, fire-line, hybrid]
 tags: [sweet, frosty, productive]

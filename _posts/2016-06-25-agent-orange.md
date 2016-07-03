@@ -12,6 +12,9 @@ test-date-ISO-8601:
 
 description: A nice, easy ride.
 farm-desc: 'Fun & Relaxed'
+
+keywords: [agent orange, noble farms, chill, productive, creative, sativa]
+
 categories: [wa, noble-farms, sativa]
 tags: [chill, productive, creative]
 

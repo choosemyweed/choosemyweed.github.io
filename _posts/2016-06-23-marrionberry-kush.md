@@ -9,6 +9,10 @@ harvest-date-ISO-8601: 2016-03-10
 
 
 description: "Mild and Earthy"
+farm-desc: 
+
+keywords: [marrionberry kush, kush, dense, earth, indica]
+
 categories: [wa, badass-grass, indica]
 tags: [dense, earthy]
 

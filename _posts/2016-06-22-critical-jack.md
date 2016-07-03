@@ -10,6 +10,10 @@ harvest-date-ISO-8601: 2016-05-12
 
 
 description: "Pleasantly Productive"
+farm-desc: 
+
+keywords: [critical jack, sweet as, jack,dense, tasty]
+
 categories: [wa, sweet-as, sativa]
 tags: [dense, tasty, productive]
 

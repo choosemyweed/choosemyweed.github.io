@@ -8,6 +8,10 @@ harvest-date-ISO-8601:
 test-date-ISO-8601: 10/05/2015
 
 description: "Mmmmm.. Tasty with a kick of relaxing"
+farm-desc: 
+
+keywords: [wedding cake, gateway organix, sweet, yummy, tasty, frosty, hybrid]
+
 categories: [wa, gateway-organix, hybrid]
 tags: [sweet, tasty, frosty]
 

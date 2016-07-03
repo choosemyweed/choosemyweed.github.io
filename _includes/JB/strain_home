@@ -1,21 +1,21 @@
 {% for post in strain_home_list limit:5 %}
   {% if post.thumbnail %}
     <a class="list-group-item container-relative" href="{{ BASE_PATH }}{{ post.url }}">
-      <img class="thumb-edge" src="{{ post.thumbnail }}"/>
+      <img alt="{{ post.title }} from {{ post.farm }}" class="thumb-edge" src="{{ post.thumbnail }}"/>
       <span class="content-center-text-absolute text-capitalize">
-        <div>
+        <div class="strain-view">
           <b>{{ post.title }}</b><br />
-          <small>{{ post.farm }}</small>
+          <small> {{ post.farm }}</small>
         </div>
       </span>
     </a>
   {% else %}  
     <a class="list-group-item" href="{{ BASE_PATH }}{{ post.url }}">
-    <img src="https://s32.postimg.org/3rson09p1/no_image.png"/>
+    <img alt="{{ post.title }} from {{ post.farm }}" src="https://s32.postimg.org/3rson09p1/no_image.png"/>
       <span class="content-center-text-absolute text-capitalize">
-        <div>
+        <div class="strain-view">
           <b>{{ post.title }}</b><br />
-          <small>{{ post.farm }}</small>
+          <small> {{ post.farm }}</small>
         </div>
       </span>
     </a>

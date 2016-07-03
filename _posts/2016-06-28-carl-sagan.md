@@ -12,8 +12,12 @@ harvest-date-ISO-8601: 2016-02-01
 test-date-ISO-8601: 
 
 description: "Spacey .. Get it?!"
+farm-desc: 
+
+keywords: [carl sagan, sun grown organix, fruit of the root, dense, relaxing, indica]
+
 categories: [wa, sun-grown-organix, fruit-of-the-root, indica]
-tags: [dense, ]
+tags: [dense, relaxing]
 
 sativa-per: 
 indica-per: 

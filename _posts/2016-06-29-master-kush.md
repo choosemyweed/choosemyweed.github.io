@@ -13,6 +13,8 @@ description: 'Heavy on the eyes'
 farm-desc: 'Obey your master...or suffer the wrath of this classic strain. 
             Master Kush is a superb balance of full-body relaxation without the mind-numbing effect many indica stains produce.
             It offers a sharpened sensory awareness that can bring out the best of any activity. Recommended for: video games and headphone music'
+
+keywords: [master kush, green crest, solid nugs, tart, balance, indica]
             
 categories: [wa, green-crest, indica]
 tags: [solid nugs, tart]

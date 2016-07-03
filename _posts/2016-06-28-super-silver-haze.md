@@ -11,6 +11,10 @@ harvest-date-ISO-8601: 2016-02-01
 test-date-ISO-8601: 
 
 description: "Skunky .. with the funky feelings.."
+farm-desc: 
+
+keywords: [super silver haze, sun grown organix, fruit of the root, skunky, dense, heavy hitter, sativa]
+
 categories: [wa, sun-grown-organix, fruit-of-the-root, sativa]
 tags: [skunky, dense, heavy hitter]
 

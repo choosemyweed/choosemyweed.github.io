@@ -9,6 +9,10 @@ harvest-date-ISO-8601: 05/20/2016
 test-date-ISO-8601: 
 
 description: "Frosted with crystaline goodness."
+farm-desc: 
+
+keywords: [great white shark, northwest grown, frosty, beautiful, sativa]
+
 categories: [wa, northwest-grown, sativa]
 tags: [frosty, beautiful]
 

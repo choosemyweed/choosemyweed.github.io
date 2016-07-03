@@ -2,6 +2,7 @@
 layout: strain
 strain: "Sour Diesel"
 farm: Life Gardens
+brand: spark
 
 thumbnail: https://s19.postimg.org/4ham7iitf/WP_20160623_14_53_29_Pro_1.jpg
 
@@ -10,6 +11,9 @@ test-date-ISO-8601:
 
 description: "Earthy undertone .. Hits like a street sweeper"
 farm-desc: "Focus"
+
+keywords: [sour diesel, sour deisel, life gardens, earth, spark, productive, classic]
+
 categories: [wa, life-gardens, spark, sativa]
 tags: [productive, classic]
 

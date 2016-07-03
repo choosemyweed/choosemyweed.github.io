@@ -1,16 +1,17 @@
 ---
 layout: strain
 strain: "Dutch Treat"
-farm: "western culture"
+farm: "western cultured"
 thumbnail: 
 thumb-large: 
 
 harvest-date-ISO-8601: 2016-05-19
-
 test-date-ISO-8601: 
 
-description: 'Pungent with a sour kick in the face.'
+description: 'Pungent weed with a sour kick in the face.'
 farm-desc: 
+
+keywords: [dutch treat, western cultured, sour, frosty]
 
 categories: [wa, western-cultured, sativa]
 tags: [sour, frosty, focus]

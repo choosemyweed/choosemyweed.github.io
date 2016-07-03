@@ -12,6 +12,10 @@ harvest-date-ISO-8601: 2016-05-20
 test-date: 
 
 description: "Light nugs .. frosty .. FLUFFY!"
+farm-desc: 
+
+keywords: [super silver haze, northwest grown, fluffy, frosty, sativa]
+
 categories: [wa, northwest-grown, sativa]
 tags: [frosty, fluffy]
 

@@ -8,6 +8,10 @@ harvest-date-ISO-8601 :
 test-date-ISO-8601 :
 
 description: "Dense & sticky buds .. Soooooo potent"
+farm-desc: 
+
+keywords: [headcheese, emerald evolution, dense, sticky, potent, cheese, headband]
+
 categories: [wa, emerald-evolution, hybrid]
 tags: [sticky, dense]
 
