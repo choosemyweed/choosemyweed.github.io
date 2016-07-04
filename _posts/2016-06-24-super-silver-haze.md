@@ -2,14 +2,11 @@
 layout: strain
 strain: "Super Silver Haze"
 farm: northwest grown
-
 thumbnail: https://s32.postimg.org/fzm59ccol/WP_20160624_12_30_47_Pro.jpg
 thumb-large: https://s31.postimg.org/pcozeulsb/WP_20160624_12_30_47_Pro.jpg
 
-harvest-date: 05/20/2016
 harvest-date-ISO-8601: 2016-05-20
-
-test-date: 
+test-date-ISO-8601: 
 
 description: "Light nugs .. frosty .. FLUFFY!"
 farm-desc: 
