@@ -3,7 +3,7 @@
     
     {% if page.thumbnail %}
       <a class="thumb-left dangle-left-lg" src="{% if page.thumb-large %}{{ page.thumb-large }}{% endif %}" data-toggle="modal" data-target="#packaging">
-        <img itemprop="image" class="img-responsive thumb-edge" src="{{ page.thumbnail }}" alt="{{ page.title }}"/>
+        <img itemprop="image" class="img-responsive thumb-edge" src="{{ page.thumbnail }}" alt="{{ page.title }} packaging"/>
       </a>
     {% endif %}
     
@@ -25,7 +25,7 @@
                 <h2 class="modal-title">{{ page.strain }}</h2>
               </div>
               <div class="modal-body">
-                <img class="img-responsive modal-img" src="{{ page.thumb-large }}" alt="{{ page.title }}"/>
+                <img class="img-responsive modal-img" src="{{ page.thumb-large }}" alt="{{ page.title }} packaging close up"/>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -133,7 +133,7 @@
               {% if like.thumbnail %}
                 <div class="col-md-4">
                   <a href="{{ BASE_PATH }}{{ like.url }}" strain="{{ like.strain }}">
-                    <img class="img-responsive thumb-edge thumb-center" title="{{ like.strain }}" src="{{ like.thumbnail }}" alt="{{ like.title }}"/>
+                    <img class="img-responsive thumb-edge thumb-center" title="{{ like.strain }}" src="{{ like.thumbnail }}" alt="{{ like.strain }}"/>
                   </a>
                 </div>
               {% endif %}
