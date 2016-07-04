@@ -55,6 +55,6 @@ ts:
 ---
 {% include JB/setup %}
 
-![](https://s31.postimg.org/rpo4qyf1z/WP_20160703_15_00_53_Pro.jpg)
+![1 gram pacific og](https://s31.postimg.org/rpo4qyf1z/WP_20160703_15_00_53_Pro.jpg)
 
-![](https://s31.postimg.org/a0wdzc3av/WP_20160703_15_01_44_Pro.jpg)
+![close up pacific og](https://s31.postimg.org/a0wdzc3av/WP_20160703_15_01_44_Pro.jpg)
