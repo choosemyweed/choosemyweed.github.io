@@ -2,8 +2,8 @@
 layout: strain
 strain: "girl scout cookies"
 farm: "mt baker greeneries"
-thumbnail: https://s5.postimg.org/v9z8ktz53/small_thumb.jpg
-thumb-large: https://s5.postimg.org/r24gc2xpj/large_tumb.jpg
+thumbnail: https://s5.postimg.org/kptwfzk13/small_thumb.jpg
+thumb-large: https://s5.postimg.org/9er8rmd5z/large_tumb.jpg
 
 harvest-date-ISO-8601: 2016-04-20
 test-date-ISO-8601: 
