@@ -2,8 +2,8 @@
 layout: strain
 strain: "black russian"
 farm: "mt baker greeneries"
-thumbnail: https://s5.postimg.org/4mhfg6ihz/small_thumb.jpg
-thumb-large: https://s5.postimg.org/oidevpzjb/large_thumb.jpg
+thumbnail: https://s5.postimg.org/kptwfzk13/small_thumb.jpg
+thumb-large: https://s5.postimg.org/9er8rmd5z/large_tumb.jpg
 
 harvest-date-ISO-8601: 2016-04-16
 test-date-ISO-8601: 
@@ -11,7 +11,7 @@ test-date-ISO-8601:
 description: 'A huge bud finely trimmed and well cured. Mt Baker greeneries does it again.'
 farm-desc: 'Meticulously produced indoors using only the finest organic soild nutrients and supplements. Always hand trimmed and pesticide free.'
 
-keywords: []
+keywords: [skunky, black russian, mt baker greeneries, sleepy, weed good for sleep]
 
 categories: [wa, mt-baker-greeneries, indica]
 tags: [skunky, fluffy, sleepy]
