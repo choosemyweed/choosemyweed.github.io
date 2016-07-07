@@ -55,7 +55,7 @@ ts:
 ### Big buds .. can't miss em'
 
 Girl Scout Cookies, you did it again. 
-Enough said, here's a close-up of this baddass marijuana.
+Enough said, here's a close-up of this badass marijuana.
 
 ![close up of girl scout cookies from mt baker greeneries](https://s5.postimg.org/kqz8vnwgz/close_up.jpg)
 
