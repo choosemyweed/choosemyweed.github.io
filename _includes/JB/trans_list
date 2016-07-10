@@ -1,21 +1,22 @@
 {% for ts in trans_list %}
-    <li><ul>
     {% if ts.trans %}
+    <li><ul>
         {% if forloop.first == true %}
-            <li><h4>{{ ts.store }}</h4></li>
+            <li><h5><b>{{ ts.store }}</b></h5></li>
             
             {% for feed in ts.trans %}
                 {% if forloop.first == true %}
-                    <li itemprop="aggregateRating"
-                        itemscope itemtype="http://schema.org/AggregateRating">
+                    <li>
+                    <!--<li itemprop="aggregateRating"
+                        itemscope itemtype="http://schema.org/AggregateRating">-->
                         
                         <small>{{ feed[2]  | date: '%B %d, %Y'}}</small>
                         
                         {% assign stars = feed[3] %}
                         {% include JB/stars %}
                         
-                        <input type="hidden" itemprop="ratingValue" value="{{ feed[3] }}"/>
-                        <input type="hidden" itemprop="ratingCount" value="{{ forloop.length }}"/>
+                        <!--<input type="hidden" itemprop="ratingValue" value="{{ feed[3] }}"/>-->
+                        <!--<input type="hidden" itemprop="ratingCount" value="{{ forloop.length }}"/>-->
                     </li>
                 {% else %}
                     <li>
@@ -26,7 +27,7 @@
                 {% endif %}
             {% endfor %}
         {% else %}
-            <li><h4>{{ ts.store }}</h4></li>
+            <li><h5><b>{{ ts.store }}</b></5></li>
             
             {% for feed in ts.trans %}
                 {% if trans.first != empty %}
@@ -38,8 +39,8 @@
                 {% endif %}
             {% endfor %}
         {% endif %}
-    {% endif %}
     </ul></li>
+    {% endif %}
 {% endfor %}
 
 {% assign trans_list = nil %}

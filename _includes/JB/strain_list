@@ -1,0 +1,45 @@
+
+{% for strain in strain_list %} 
+    {% if forloop.first == true %}
+      <div>
+        {% if strain.thumbnail %}
+          <a href="{{ BASE_PATH }}{{ strain.url }}">
+            <img itemprop="image" class="img-responsive" src="{{ strain.thumbnail }}" alt="{{ strain.title }} packaging"/>
+          </a>
+        {% endif %}
+        
+        <h3><a href="{{ BASE_PATH }}{{ strain.url }}">{{ strain.title }}</a></h3> 
+        <h4><i>{{ strain.farm }}</i></h4>
+        
+        {% if strain.ts.first.trans %}
+          <i>Found on ..</i>
+          <ul class="list-full-width type-list">
+            {% assign trans_list = strain.ts %}
+            {% include JB/trans_list %}
+          </ul>
+        {% endif %}
+      </div>
+    {% else %}
+      <hr>
+      <div>
+        {% if strain.thumbnail %}
+          <a href="{{ BASE_PATH }}{{ strain.url }}">
+            <img itemprop="image" class="img-responsive" src="{{ strain.thumbnail }}" alt="{{ strain.title }} packaging"/>
+          </a>
+        {% endif %}
+        
+        <h3><a href="{{ BASE_PATH }}{{ strain.url }}">{{ strain.title }}</a></h3> 
+        <h4><i>{{ strain.farm }}</i></h4>
+        
+        {% if strain.ts.first.trans %}
+          <i>Found on ..</i>
+          <ul class="list-full-width type-list">
+            {% assign trans_list = strain.ts %}
+            {% include JB/trans_list %}
+          </ul>
+        {% endif %}
+      </div>
+    {% endif %}
+{% endfor %}
+{% assign strain_list = nil %}
+

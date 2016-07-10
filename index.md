@@ -10,7 +10,8 @@ keywords: [weed, skagit, find weed, sativa, indica, hybrid]
   <div class="list-group sativa">
     <h2>Sativa</h2>
     {% assign strain_home_list = site.categories.sativa %}
-    {% include JB/strain_home %}      
+    {% include JB/strain_home %}
+    <li class="list-group-item list-text-right"><a href="{{ BASE_PATH }}sativa">sativa strain list</a></li>
   </div>
 </div>
 
@@ -19,6 +20,7 @@ keywords: [weed, skagit, find weed, sativa, indica, hybrid]
     <h2>Hybrid</h2>
     {% assign strain_home_list = site.categories.hybrid %}
     {% include JB/strain_home %}       
+    <li class="list-group-item list-text-right"><a href="{{ BASE_PATH }}hybrid">hybrid strain list</a></li>
   </div>
 </div>
 
@@ -26,7 +28,8 @@ keywords: [weed, skagit, find weed, sativa, indica, hybrid]
   <div class="list-group indica">
     <h2>Indica</h2>
     {% assign strain_home_list = site.categories.indica %}
-    {% include JB/strain_home %}     
+    {% include JB/strain_home %} 
+    <li class="list-group-item list-text-right"><a href="{{ BASE_PATH }}indica">indica strain list</a></li>
   </div>
 </div>
 
