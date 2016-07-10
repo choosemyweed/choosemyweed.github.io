@@ -2,8 +2,8 @@
 layout: strain
 strain: "Hawaiian dutch"
 farm: "subdued exitment"
-thumbnail: 
-thumb-large: 
+thumbnail: https://s5.postimg.org/3judv5tev/small_large_thumb.jpg
+thumb-large: https://s5.postimg.org/s6q8sq3af/small_large_thumb.jpg
 
 harvest-date-ISO-8601: 2016-06-15
 test-date-ISO-8601: 
@@ -51,3 +51,9 @@ ts:
    trans: 
 ---
 {% include JB/setup %}
+
+![1 gram of hawaiian dutch from sub x](https://s5.postimg.org/xjf36ur6r/1_gram.jpg)
+
+![close up of hawaiian dutch from sub x](https://s5.postimg.org/uduhgn8kj/close_up.jpg)
+
+
