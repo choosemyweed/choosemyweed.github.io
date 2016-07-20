@@ -3,14 +3,14 @@
 {% else %}
   {% if categories_list.first[0] == null %}
     {% for category in categories_list %} 
-      <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}{{ category | join: "/" }}"
+      <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category | join: "/" }}-ref"
          type="button" class="btn btn-default">
       		{{ category | join: "/" | replace: "-", " " }} 
     	</a>
     {% endfor %}
   {% else %}
     {% for category in categories_list %} 
-    	<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}{{ category[0] | join: "/" }}"
+    	<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] | join: "/" }}-ref"
     	   type="button" class="btn btn-default">
     		{{ category[0] | join: "/" | replace: "-", " " }} 
     	</a>
