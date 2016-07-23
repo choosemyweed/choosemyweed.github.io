@@ -23,7 +23,7 @@ indica-per:
 
 rate:
    look: 8
-   smell:8 
+   smell: 8 
    taste: 7
    high: 9
    last: 7
