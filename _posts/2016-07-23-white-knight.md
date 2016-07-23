@@ -8,7 +8,7 @@ thumb-large:
 harvest-date-ISO-8601: 2016-04-04
 test-date-ISO-8601: 
 
-description: 
+description: "White knight"
 farm-desc: 
 
 keywords: ["green fire production", white knight]
